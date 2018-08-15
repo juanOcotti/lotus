@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Lotus Slider</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> 
+
+  <link rel="stylesheet" href="lotus-styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">   
+</head>
+
+<body>
+<div class="banner">
+<p class="grey">I phone mobile slider</p>
+  <h1>Giverny Gate</h1>
+</div>
+
+<div class="banner">
+  <h1 class="color">juanOcotti</h1>
+</div>
+
+<div class="banner">
+  <h1 class="color">Peonies</h1>
+</div>
+
+
+<!-- FULL PEONIE -->
+<div id="wrapper">
+  <div id="container"><h1>Peonies</h1></div>
+
+</div> <!-- end wrapper -->
+
+<!-- CROCODILLE -->
+<div class="wrapp">
+  <div class="paint"><h1>Crocodille</h1></div>
+</div> <!-- end wrap -->
+
+
+       <!--kATZEN  NEW TEST-->
+<div class="outside-shell"> 
+  <div class="fixx-pic"></div>
+  <h1 class="color">Katzen</h1> 
+</div><!-- end outside-shell -->
+
+<div class="quote-shell">
+  <div class="verbs"><h1>Verbz</h1></div>
+</div><!--end quote-shell -->
+
+
+
+<!-- KERRY RUDDOCK PEN VEGGIE FLORIST OVERRIDES JUAN FIXED BG -->
+<article>
+    <section class="bg-img bg-img1">
+      <!-- <h1> is DONE WTH ::BEFORE CONTENT</h1> -->
+    </section>
+    
+     <section class="solid">
+      <h1>Scrolling Foreground</h1>
+    </section> 
+    
+    <section>
+      <div class="content2">
+        <p class="color">Quid securi etiam tamquam eu fugiat nulla pariatur. Cum ceteris in veneratione tui montes, nascetur mus. Quisque placerat facilisis egestas cillum dolore. Ambitioni dedisse scripsisse iudicaretur. Quisque ut dolor gravida, placerat libero vel,euismod.</p>
+      </div>
+    </section>
+    
+    <section class="solid">
+      <h1>Scrolling Foreground</h1>
+    </section>
+   
+   <section class="footer">
+      <div class="content2">
+        <h1 class="color">Finito</h1>
+      </div>
+    </section>   
+</article> 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+ $(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('#container').css('background-position', 'center ' + ((scrolledY)) + 'px');
+}); 
+</script>
+
+<script>
+ $(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.paint').css('background-position', 'left ' + ((scrolledY)) + 'px');
+}); 
+
+</script>
+  
+</body>
+</html>

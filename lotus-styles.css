@@ -177,7 +177,7 @@ section {
   top: 0; 
  left: 0;
  /* background-position: center; ghost aug 13 */   
-  background-size: 110%; 
+  background-size: 100%; 
    z-index: 1;  }  /* -10 */
 
 /* insert h1 in container -text bkgd scroll*/

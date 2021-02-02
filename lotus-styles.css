@@ -167,7 +167,7 @@ section {
 
 .bg-img::after {   
  background-image: url(h2oLillie428.png);  /* h2o480.png */
- background-attachment: scroll;
+ background-attachment: fixed;
  background-repeat-y: no-repeat; /*new */
   /* position: fixed; */  /* this img with text everything on one plane */
   content: ' ';

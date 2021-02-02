@@ -171,12 +171,12 @@ section {
  background-repeat-y: no-repeat; /*new */
   /* position: fixed; */  /* this img with text everything on one plane */
   content: ' ';
- /* display: block; 
-*/  width: 100vw;
-  min-height: 100vh; /*was 100*/
- /* position: absolute; 
+ display: block; 
+ width: 100vw;
+ /* min-height: 100vh;*/ /*was 100*/
+  position: absolute; 
   top: 0; 
- left: 0;*/
+ left: 0;
  /* background-position: center; ghost aug 13 */   
   background-size: 100%; 
    z-index: 1;  }  /* -10 */

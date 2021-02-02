@@ -167,13 +167,13 @@ section {
 
 .bg-img::after {   
  background-image: url(h2oLillie428.png);  /* h2o480.png */
- background-attachment: fixed;
+ background-attachment: scroll;
  background-repeat-y: no-repeat; /*new */
   /* position: fixed; */  /* this img with text everything on one plane */
   content: ' ';
  display: block; 
  width: 100vw;
- /* min-height: 100vh;*/ /*was 100*/
+ min-height: 100vh; /*was 100*/
   position: absolute; 
   top: 0; 
  left: 0;

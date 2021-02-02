@@ -172,7 +172,7 @@ section {
   content: ' ';
   display: block; 
   width: 100vw;
-  min-height: 100vh; 
+  min-height: 110vh; /*was 100*/
   position: absolute; 
   top: 0; 
  left: 0;

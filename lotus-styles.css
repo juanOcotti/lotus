@@ -212,8 +212,8 @@ section {
     z-index: 1;  }  */ 
 
 /* CAN TURN below off and insert as bg-img */
-  .bg-img1:before {
-      /*  background-image: url(h2o480.png); */ }
+  /* .bg-img1:before {
+       background-image: url(h2o480.png);  } */
 
 /* FOR JS SCENARIO */
 /* .bg-img2:before {

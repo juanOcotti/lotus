@@ -172,12 +172,12 @@ section {
   content: ' ';
   display: block; 
   width: 100vw;
-  min-height: 110vh; /*was 100*/
+  min-height: 100vh; /*was 100*/
   position: absolute; 
   top: 0; 
  left: 0;
  /* background-position: center; ghost aug 13 */   
-  background-size: 100%; 
+  background-size: 110%; 
    z-index: 1;  }  /* -10 */
 
 /* insert h1 in container -text bkgd scroll*/
